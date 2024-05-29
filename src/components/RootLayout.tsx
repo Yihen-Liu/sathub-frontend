@@ -13,7 +13,7 @@ import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 import { motion, MotionConfig, useReducedMotion } from 'framer-motion'
 
-import { Button } from '@/components/Button'
+import { Button, NaviButton } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { GridPattern } from '@/components/GridPattern'
@@ -80,6 +80,20 @@ function Header({
             filled={logoHovered}
           />
         </Link>
+
+          <NaviButton href="https://sathub.io" target='_blank' invert={invert}>
+            APIs
+          </NaviButton>
+          <NaviButton href="https://explorer.sathub.net" target='_blank' invert={invert}>
+            Explorer
+          </NaviButton>
+          <NaviButton href="https://faucet.sathub.net" target='_blank' invert={invert}>
+            Gain tBTC
+          </NaviButton>
+          <NaviButton href="/contact" invert={invert}>
+            Developer Wallet
+          </NaviButton>
+
         <div className="flex items-center gap-x-8">
           <Button href="/contact" invert={invert}>
             Contact us
