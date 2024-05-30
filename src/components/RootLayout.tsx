@@ -90,7 +90,7 @@ function Header({
           <NaviButton href="https://faucet.sathub.net" target='_blank' invert={invert}>
             Gain tBTC
           </NaviButton>
-          <NaviButton href="/contact" invert={invert}>
+          <NaviButton href="/" invert={invert}>
             Developer Wallet
           </NaviButton>
 
