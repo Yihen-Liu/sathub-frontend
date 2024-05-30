@@ -97,7 +97,8 @@ function Header({
         <div className="flex items-center gap-x-8">
           <Button href="/contact" invert={invert}>
             Contact us
-          </Button>
+                  </Button>
+{ /*
           <button
             ref={toggleRef}
             type="button"
@@ -119,6 +120,7 @@ function Header({
               )}
             />
           </button>
+*/}
         </div>
       </div>
     </Container>

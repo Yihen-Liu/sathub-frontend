@@ -38,7 +38,7 @@ function Clients() {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We’ve worked with hundreds of amazing people
+            Thanks so much for you support me by donation, Bitcoiner work for Bitcoiner
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -188,15 +188,14 @@ export default async function Home() {
             SatHub - We Work For Bitcoin Developer
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+                      Welcome to Bitcoin developer community!
+                      Sathub is dedicated to providing developers and enthusiasts with a reliable platform to easily explore and utilize the Bitcoin ecosystem. We adhere to the spirit of openness, transparency, and decentralization that defines the Bitcoin community, offering you Signet network and API services, as well as a developer-focused wallet
           </p>
         </FadeIn>
       </Container>
 
       <Clients />
-
+{/*
       <CaseStudies caseStudies={caseStudies} />
 
       <Testimonial
@@ -211,6 +210,7 @@ export default async function Home() {
       <Services />
 
       <ContactSection />
+    */}
     </>
   )
 }
