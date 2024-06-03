@@ -81,13 +81,13 @@ function Header({
           />
         </Link>
 
-          <NaviButton href="https://sathub.io" target='_blank' invert={invert}>
+          <NaviButton href="https://api.sathub.io" target='_blank' invert={invert}>
             APIs
           </NaviButton>
-          <NaviButton href="https://explorer.sathub.net" target='_blank' invert={invert}>
+          <NaviButton href="https://explorer.sathub.io" target='_blank' invert={invert}>
             Explorer
           </NaviButton>
-          <NaviButton href="https://faucet.sathub.net" target='_blank' invert={invert}>
+          <NaviButton href="https://faucet.sathub.io" target='_blank' invert={invert}>
             Gain tBTC
           </NaviButton>
           <NaviButton href="/" invert={invert}>
