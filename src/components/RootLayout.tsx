@@ -82,23 +82,23 @@ function Header({
         </Link>
 
           <NaviButton href="https://api.sathub.io" target='_blank' invert={invert}>
-            APIs
+            API Service
           </NaviButton>
           <NaviButton href="https://explorer.sathub.io" target='_blank' invert={invert}>
-            Explorer
+            Signet Explorer
           </NaviButton>
           <NaviButton href="https://faucet.sathub.io" target='_blank' invert={invert}>
-            Gain tBTC
+            sBTC Faucet
           </NaviButton>
           <NaviButton href="/" invert={invert}>
-            Developer Wallet
+            Sathub Wallet
           </NaviButton>
 
         <div className="flex items-center gap-x-8">
+{ /*
           <Button href="/contact" invert={invert}>
             Contact us
-                  </Button>
-{ /*
+          </Button>
           <button
             ref={toggleRef}
             type="button"
