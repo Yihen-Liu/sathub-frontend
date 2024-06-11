@@ -50,10 +50,22 @@ function DribbbleIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export const socialMediaProfiles = [
-  { title: 'Facebook', href: 'https://facebook.com', icon: FacebookIcon },
-  { title: 'Instagram', href: 'https://instagram.com', icon: InstagramIcon },
-  { title: 'GitHub', href: 'https://github.com', icon: GitHubIcon },
-  { title: 'Dribbble', href: 'https://dribbble.com', icon: DribbbleIcon },
+  { title: 'Twitter', href: 'https://x.com/sathub_io', icon: FacebookIcon },
+  {
+    title: 'Discord',
+    href: 'https://discord.gg/PPB8jRXTzP',
+    icon: InstagramIcon,
+  },
+  {
+    title: 'Telegram',
+    href: 'https://t.me/+QO2WDLnHkBgyZDI1',
+    icon: GitHubIcon,
+  },
+  {
+    title: 'Feedback',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSdEhGAOvRqpApwm4BDsWnkSi-dpMM-kjuu12d0nK0FzckWprw/viewform?usp=sf_link',
+    icon: DribbbleIcon,
+  },
 ]
 
 export function SocialMedia({
@@ -76,6 +88,7 @@ export function SocialMedia({
         <li key={socialMediaProfile.title}>
           <Link
             href={socialMediaProfile.href}
+            target="_blank"
             aria-label={socialMediaProfile.title}
             className={clsx(
               'transition',

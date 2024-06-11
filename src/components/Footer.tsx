@@ -53,12 +53,11 @@ const navigation = [
     ],
   },
   {
-    title: 'Company',
+    title: 'Developers',
     links: [
-      { title: 'About', href: '/' },
-      { title: 'Process', href: '/' },
+      { title: 'Documents', href: '/' },
+      { title: 'Github', href: '/' },
       { title: 'Blog', href: '/' },
-      { title: 'Contact us', href: '/' },
     ],
   },
   {
@@ -82,6 +81,7 @@ function Navigation() {
                   <Link
                     href={link.href}
                     className="transition hover:text-neutral-950"
+                    target='_blank'
                   >
                     {link.title}
                   </Link>
