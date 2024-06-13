@@ -57,7 +57,7 @@ const navigation = [
     links: [
       { title: 'Documents', href: '/' },
       { title: 'Github', href: '/' },
-      { title: 'Blog', href: '/' },
+      { title: 'Medium', href: '/' },
     ],
   },
   {
