@@ -84,7 +84,7 @@ function Header({
           <NaviButton href="https://api.sathub.io" target='_blank' invert={invert}>
             API Service
           </NaviButton>
-          <NaviButton href="https://explorer.sathub.io" target='_blank' invert={invert}>
+          <NaviButton href="https://signet.sathub.io" target='_blank' invert={invert}>
             Signet Explorer
           </NaviButton>
           <NaviButton href="https://faucet.sathub.io" target='_blank' invert={invert}>
