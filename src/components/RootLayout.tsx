@@ -90,7 +90,7 @@ function Header({
           <NaviButton href="https://faucet.sathub.io" target='_blank' invert={invert}>
             sBTC Faucet
           </NaviButton>
-          <NaviButton href="/" invert={invert}>
+          <NaviButton href="https://github.com/satshub/sathub-wallet-extension/releases/tag/v0.0.1" target='_blank' invert={invert}>
             Sathub Wallet
           </NaviButton>
 
