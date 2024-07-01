@@ -55,8 +55,8 @@ const navigation = [
   {
     title: 'Developers',
     links: [
-      { title: 'Documents', href: '/' },
-      { title: 'Github', href: '/' },
+      { title: 'Documents', href: 'https://docs.sathub.io/sathub-docs/' },
+      { title: 'Github', href: 'https://github.com/satshub' },
       { title: 'Medium', href: '/' },
     ],
   },
