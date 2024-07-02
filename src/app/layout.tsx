@@ -7,8 +7,9 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - Studio',
-    default: 'Studio - Award winning developer studio based in Denmark',
-  },
+    default: 'Sathub - We Work For Bitcoin Developer',
+    },
+    keywords: "bitcoin signet, signet faucet, signet explorer, bitcoin API, jsonrpc, electrumx"
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {
