@@ -19,7 +19,8 @@ function Clients() {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            Thanks so much for you support me by donation to 1Da7UNTW8kLgNLKk4VGfAewm1TVZekQemQ , Bitcoiner work for Bitcoiner.
+            Thanks so much for you support me by donation to
+            1Da7UNTW8kLgNLKk4VGfAewm1TVZekQemQ , Bitcoiner work for Bitcoiner.
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -28,7 +29,8 @@ function Clients() {
             role="list"
             className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
           >
-            {clients.map(([client, logo, url]) => (
+            {/*
+{clients.map(([client, logo, url]) => (
               <li key={client}>
                     <FadeIn>
                         <Link href={url}>
@@ -37,6 +39,20 @@ function Clients() {
                 </FadeIn>
               </li>
             ))}
+                      */}
+            <li key={'Kunt'}>
+              <FadeIn>
+                <Link href={'https://x.com/KnutVinger'}>
+                  <Image
+                    width={'50'}
+                    height={'50'}
+                    src={kuntDonateAvatar}
+                    alt={'Kunt'}
+                  />
+                </Link>
+              </FadeIn>
+                   </li>
+
           </ul>
         </FadeInStagger>
       </Container>
@@ -171,14 +187,18 @@ export default async function Home() {
             SatHub - We Work For Bitcoin Developer
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-                      Welcome to Bitcoin developer community!
-                      Sathub is dedicated to providing developers and enthusiasts with a reliable platform to easily explore and utilize the Bitcoin ecosystem. We adhere to the spirit of openness, transparency, and decentralization that defines the Bitcoin community, offering you Signet network and API services, as well as a developer-focused wallet
+            Welcome to Bitcoin developer community! Sathub is dedicated to
+            providing developers and enthusiasts with a reliable platform to
+            easily explore and utilize the Bitcoin ecosystem. We adhere to the
+            spirit of openness, transparency, and decentralization that defines
+            the Bitcoin community, offering you Signet network and API services,
+            as well as a developer-focused wallet
           </p>
         </FadeIn>
       </Container>
 
       <Clients />
-{/*
+      {/*
       <CaseStudies caseStudies={caseStudies} />
 
       <Testimonial
