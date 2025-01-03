@@ -20,7 +20,7 @@ function Clients() {
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
             Thanks so much for you support me by donation to
-            1Da7UNTW8kLgNLKk4VGfAewm1TVZekQemQ , Bitcoiner work for Bitcoiner.
+            1A1fYt41EcXPtjVNU14AMRBj9f8X6w7VGU , Bitcoiner work for Bitcoiner.
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
